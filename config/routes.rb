@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get '/articles', to: 'articles#index'
   get 'welcome/about', to: 'welcome#about'
   get 'welcome/home', to: 'welcome#home'
-
+  get 'signup', to: 'users#new'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
